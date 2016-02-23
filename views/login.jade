@@ -1,5 +1,8 @@
 h1 Please Login
 
+if message
+  p= message
+
 form(action='/login', method='POST')
   .input-group
     label(for='email') Email

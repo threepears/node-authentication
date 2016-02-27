@@ -36,4 +36,10 @@ Then start your regular Node server with this Terminal command:
 $ npm run start
 ```
 
+Finally, make sure your Redis server is running by using this Terminal command:
+
+```sh
+$ redis-server
+```
+
 Now open your browser and go to http://localhost:3000/ to start and use the application!

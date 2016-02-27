@@ -25,7 +25,9 @@ app.use(methodOverride("_method"));
 
 app.use(session({
   secret: SESSION_SECRET,
-  store: new RedisStore()
+  store: new RedisStore(),
+  resave: false,
+  saveUninitialized: false
 }));
 
 app.use(flash());

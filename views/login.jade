@@ -1,7 +1,8 @@
-h1 Please Login
+each msgs, type in messages
+  for msg in msgs
+    p(class=type)= msg
 
-if message
-  p= message
+h1 Please Login
 
 form(action='/login', method='POST')
   .input-group

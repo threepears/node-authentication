@@ -1,7 +1,8 @@
-h1 Register
+each msgs, type in messages
+  for msg in msgs
+    p(class=type)= msg
 
-if message
-  p= message
+h1 Register
 
 form(action='/register', method='POST')
   .input-group

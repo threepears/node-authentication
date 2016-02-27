@@ -22,12 +22,15 @@
   "dependencies": {
     "bcrypt": "^0.8.5",
     "body-parser": "^1.15.0",
+    "connect-flash": "^0.1.1",
     "connect-redis": "^3.0.2",
     "express": "^4.13.4",
     "express-session": "^1.13.0",
     "jade": "^1.11.0",
     "method-override": "^2.3.5",
-    "mongoose": "^4.4.4"
+    "mongoose": "^4.4.4",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.9.0"
